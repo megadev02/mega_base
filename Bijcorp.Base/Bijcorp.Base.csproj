@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C883E0C1-4E8A-4CF1-919B-E5FD6DD4AC7D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bijcorp.Base</RootNamespace>
+    <AssemblyName>Bijcorp.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Developer Express .NET 2005 v6.2\Sources\DevExpress.DLL\DevExpress.BonusSkins.v6.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.Utils.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraBars.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" />
+    <Reference Include="DevExpress.XtraGrid.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="FastReport, Version=1.9.17.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=1.9.17.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="log4net">
+      <HintPath>D:\Sistemas\Laboratorio Quimico\2014\Lims\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PopupControl">
+      <HintPath>D:\Instaladores\Componentes\SimplePopup\bin.net4\PopupControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\PopupGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PopupGrid.designer.cs">
+      <DependentUpon>PopupGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportUtilities.cs" />
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Modules.cs" />
+    <Compile Include="MenuBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuBase.Designer.cs">
+      <DependentUpon>MenuBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities.cs" />
+    <Compile Include="FormSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearch.designer.cs">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\customComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customComboBoxEdit.designer.cs">
+      <DependentUpon>customComboBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\customDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customDateEdit.designer.cs">
+      <DependentUpon>customDateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\customImageComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customImageComboBoxEdit.designer.cs">
+      <DependentUpon>customImageComboBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\customLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customLookUpEdit.designer.cs">
+      <DependentUpon>customLookUpEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\customPageControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customPageControl.designer.cs">
+      <DependentUpon>customPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\customSpinEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customSpinEdit.designer.cs">
+      <DependentUpon>customSpinEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\customTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customTextEdit.designer.cs">
+      <DependentUpon>customTextEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchTextBox.Designer.cs">
+      <DependentUpon>FormSearchTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenericPresenter.cs" />
+    <Compile Include="IGenericPresenter.cs" />
+    <Compile Include="IGenericView.cs" />
+    <Compile Include="INavigationMainMenu.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucInheritedDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ucInheritedDataGridView.Designer.cs">
+      <DependentUpon>ucInheritedDataGridView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\PopupGrid.resx">
+      <DependentUpon>PopupGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearch.resx">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchTextBox.resx">
+      <DependentUpon>FormSearchTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuBase.resx">
+      <DependentUpon>MenuBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new13x11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtro3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

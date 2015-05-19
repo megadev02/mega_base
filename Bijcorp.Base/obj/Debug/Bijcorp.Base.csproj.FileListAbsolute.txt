@@ -1,0 +1,60 @@
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\bin\Debug\Bijcorp.Base.dll
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\bin\Debug\Bijcorp.Base.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\bin\Debug\log4net.dll
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\bin\Debug\PopupControl.dll
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\bin\Debug\log4net.xml
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\bin\Debug\PopupControl.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\bin\Debug\PopupControl.xml
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.PopupGrid.resources
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormSearh.resources
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormBase.resources
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormSearchTextBox.resources
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.Properties.Resources.resources
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.csproj.GenerateResource.Cache
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll.licenses
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.MenuBase.resources
+C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\LINQNorthwindDAL\Bijcorp.Base\obj\Debug\Bijcorp.Base.csprojResolveAssemblyReference.cache
+D:\Sistemas\Bijcorp.Base\bin\Debug\Bijcorp.Base.dll
+D:\Sistemas\Bijcorp.Base\bin\Debug\Bijcorp.Base.pdb
+D:\Sistemas\Bijcorp.Base\bin\Debug\log4net.dll
+D:\Sistemas\Bijcorp.Base\bin\Debug\PopupControl.dll
+D:\Sistemas\Bijcorp.Base\bin\Debug\log4net.xml
+D:\Sistemas\Bijcorp.Base\bin\Debug\PopupControl.pdb
+D:\Sistemas\Bijcorp.Base\bin\Debug\PopupControl.xml
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.PopupGrid.resources
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormLogin.resources
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormSearh.resources
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormBase.resources
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormSearchTextBox.resources
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.MenuBase.resources
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.Properties.Resources.resources
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.csproj.GenerateResource.Cache
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll.licenses
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.pdb
+D:\Sistemas\Bijcorp.Base\obj\Debug\Bijcorp.Base.csprojResolveAssemblyReference.cache
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\Bijcorp.Base.dll
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\Bijcorp.Base.pdb
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\DevExpress.BonusSkins.v6.2.dll
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\FastReport.dll
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\log4net.dll
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\PopupControl.dll
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\FastReport.Editor.dll
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\FastReport.xml
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\log4net.xml
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\PopupControl.pdb
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\PopupControl.xml
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.PopupGrid.resources
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormLogin.resources
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormSearh.resources
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormBase.resources
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormSearchTextBox.resources
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.MenuBase.resources
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.Properties.Resources.resources
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.csproj.GenerateResource.Cache
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll.licenses
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.pdb
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.csprojResolveAssemblyReference.cache
