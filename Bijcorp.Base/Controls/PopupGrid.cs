@@ -54,8 +54,15 @@ namespace Bijcorp.Base
             _dataTable = ToDataTable(list);
             _dataView = _dataTable.DefaultView;
             gridControl1.DataSource = _dataView;
-        } 
-     
+        }
+
+        public void Bind(DataTable dt)
+        {
+            _dataTable = dt;
+            _dataView = _dataTable.DefaultView;
+            gridControl1.DataSource = _dataView;
+        }
+
         public void Filter(string filterValue)
         {
             _dataView.RowFilter = string.Format(_patternFilter, filterValue);

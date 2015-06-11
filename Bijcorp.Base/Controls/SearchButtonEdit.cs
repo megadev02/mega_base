@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Resources;
@@ -234,6 +235,12 @@ namespace Bijcorp.Base
             _list = list;
             _displayMember = displayMember;
             popupGrid.Bind(list);
+        }
+
+        public void Bind(DataTable dt, DisplayMember displayMember)
+        {
+            _displayMember = displayMember;
+            popupGrid.Bind(dt);
         }
 
         public void Clear()

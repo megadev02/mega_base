@@ -46,6 +46,7 @@ D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\FastReport.xml
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\log4net.xml
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\PopupControl.pdb
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\bin\Debug\PopupControl.xml
+D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.csprojResolveAssemblyReference.cache
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.PopupGrid.resources
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormLogin.resources
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.FormSearh.resources
@@ -57,4 +58,3 @@ D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.csproj.Generate
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll.licenses
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.dll
 D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.pdb
-D:\Sistemas\GitHub\mega_base\Bijcorp.Base\obj\Debug\Bijcorp.Base.csprojResolveAssemblyReference.cache
