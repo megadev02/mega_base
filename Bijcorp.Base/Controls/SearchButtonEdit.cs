@@ -78,7 +78,7 @@ namespace Bijcorp.Base
 
         public object ItemId
         {
-            get { return ItemSelected != null ? ItemSelected.Id : 0; }
+            get { return ItemSelected != null ? ItemSelected.Id : null; }
             set
             {
                 ItemSelected = value == null ? null : _list.FirstOrDefault(x => x.Id.ToString() == value.ToString());
